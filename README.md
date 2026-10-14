@@ -83,10 +83,10 @@ Core tools used across projects in this repo:
 
 | Project | What it does | Stack | Status |
 |---------|--------------|-------|--------|
-| Financial RAG Assistant | Answers questions from standards, policies & reports | LangChain + Chroma + LLM | Planned |
+| [Financial RAG Assistant](llm/financial-rag-assistant) | Answers questions from standards, policies & reports | LangChain + Chroma + LLM | Starter |
 | Document Intelligence | Extracts insights & risks from invoices/reports | LLM structured output | Planned |
 | Finance Research Agent | Autonomous analysis & reporting agent | LangGraph / CrewAI | Planned |
-| Forecasting Engine | Revenue / cash-flow time-series models | pandas + Prophet / sklearn | Planned |
+| [Forecasting Engine](data/forecasting) | Revenue / cash-flow time-series models | pandas + Prophet / sklearn | Starter |
 | Anomaly Detection | Flags unusual transactions | Isolation Forest + pandas | Planned |
 
 Each project will include:
